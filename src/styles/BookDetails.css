@@ -1,0 +1,31 @@
+.book-details {
+    padding: 20px;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+.book-details h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2a4d69;
+}
+
+.book-details p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.book-details button {
+    padding: 10px 20px;
+    background-color: #2a4d69;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-details button:hover {
+    background-color: #41729f;
+}
