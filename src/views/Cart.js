@@ -7,8 +7,8 @@ const Cart = () => {
     const { cart, removeFromCart } = useCart(); // Obtén los datos del carrito y la función para eliminar elementos
     const navigate = useNavigate(); // Inicializa navigate para redirigir
 
-    console.log('Cart.js se está ejecutando'); // Confirmar que el componente se está montando
-    console.log('Contenido del carrito desde Cart.js:', cart); // Confirmar el estado del carrito
+    //console.log('Cart.js se está ejecutando'); // Confirmar que el componente se está montando
+    //console.log('Contenido del carrito desde Cart.js:', cart); // Confirmar el estado del carrito
 
     return (
         <div className="cart-container">

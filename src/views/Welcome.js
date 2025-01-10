@@ -13,9 +13,10 @@ const Welcome = () => {
 
     return (
         <div className="welcome-container">
-            <h1>Bienvenido a Relatos de Papel</h1>
-            <p>Serás redirigido automáticamente en 5 segundos...</p>
-            <button onClick={() => navigate('/main')}>Ir ahora</button>
+            <h1>Bienvenidos a su Biblioteca</h1>
+            <h2>Relatos de Papel</h2>
+            <p>Redirección automáticamente en 5 segundos</p>
+            <button onClick={() => navigate('/main')}>Entrar</button>
         </div>
     );
 };

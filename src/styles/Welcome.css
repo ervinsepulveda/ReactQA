@@ -1,14 +1,20 @@
 .welcome-container {
-    height: 100vh; /* Ocupa toda la altura de la pantalla */
-    background-image: url('../assets/images/background.jpg'); /* Ruta de la imagen */
-    background-size: cover; /* Ajusta la imagen para que ocupe todo el fondo */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh;
+    /* Ocupa toda la altura de la pantalla */
+    background-image: url('../assets/images/background.jpg');
+    /* Ruta de la imagen */
+    background-size: cover;
+    /* Ajusta la imagen para que ocupe todo el fondo */
+    background-position: center;
+    /* Centra la imagen */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white; /* Texto en blanco */
+    color: white;
+    /* Texto en blanco */
     text-align: center;
     font-family: Arial, sans-serif;
 }
@@ -16,14 +22,25 @@
 .welcome-container h1 {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #f5d742; /* Color amarillo cálido */
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Sombra más pronunciada */
+    color: #f5d742;
+    /* Color amarillo cálido */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    /* Sombra más pronunciada */
 }
 
+.welcome-container h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffd500;
+    /* Color amarillo cálido */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    /* Sombra más pronunciada */
+}
 
 .welcome-container p {
     font-size: 1.2rem;
-    color: #f2f6f7; /* Color amarillo cálido */
+    color: #f2f6f7;
+    /* Color amarillo cálido */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
@@ -40,5 +57,6 @@
 }
 
 .welcome-container button:hover {
-    background-color: #41729f; /* Azul más claro */
+    background-color: #41729f;
+    /* Azul más claro */
 }

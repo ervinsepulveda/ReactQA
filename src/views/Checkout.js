@@ -11,15 +11,19 @@ const Checkout = () => {
     useEffect(() => {
         if (cart.length === 0) {
             alert('El carrito está vacío. Redirigiendo a la página principal...');
-            navigate('/main'); // Redirige a la página principal
+            navigate('/main');
         }
     }, [cart, navigate]);
 
     // Maneja la confirmación del pedido
     const handleCheckout = () => {
         alert('¡Pedido realizado con éxito!');
-        clearCart(); // Vacía el carrito
-        navigate('/main'); // Redirige a la página principal
+        clearCart();
+        navigate('/main');
+    };
+
+    const handleBack = () => {
+        navigate('/main');
     };
 
     return (
@@ -34,6 +38,9 @@ const Checkout = () => {
             </ul>
             <button className="confirm-button" onClick={handleCheckout}>
                 Confirmar Pedido
+            </button>
+            <button className="back-button" onClick={handleBack}>
+                Regresar a la página principal
             </button>
         </div>
     );

@@ -3,13 +3,15 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #ffffff; /* Fondo claro */
-    min-height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+    background-color: #ffffff;
+    /* Fondo claro */
+    min-height: 100vh;
+    /* Asegura que ocupe toda la altura de la pantalla */
 }
 
 .search-bar {
-    margin-left: 220px; /* Margen ajustado para evitar solapamiento con el carrito */
-    width: calc(100% - 240px); /* Ocupa el espacio restante */
+    margin-left: 310px;
+    width: 100%;
     max-width: 600px;
     margin-bottom: 20px;
 }
@@ -25,7 +27,8 @@
 
 .book-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Diseño en rejilla */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* Diseño en rejilla */
     gap: 20px;
     width: 100%;
     max-width: 1200px;
@@ -56,9 +59,12 @@
 }
 
 .book-image {
-    width: 150px; /* Ancho de la imagen */
-    height: 200px; /* Alto de la imagen */
-    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    width: 150px;
+    /* Ancho de la imagen */
+    height: 200px;
+    /* Alto de la imagen */
+    object-fit: cover;
+    /* Ajusta la imagen sin deformarla */
     border-radius: 5px;
     margin-bottom: 10px;
 }

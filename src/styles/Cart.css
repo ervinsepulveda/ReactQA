@@ -8,7 +8,8 @@
     padding: 10px;
     width: 200px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 1000; /* Asegura que esté sobre otros elementos */
+    z-index: 1000;
+    /* Asegura que esté sobre otros elementos */
 }
 
 .cart-container h2 {
@@ -33,7 +34,7 @@
 
 .cart-container button {
     background-color: #ff4d4f;
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
@@ -60,4 +61,3 @@
 .checkout-button:hover {
     background-color: #41729f;
 }
-

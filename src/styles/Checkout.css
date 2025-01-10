@@ -50,3 +50,14 @@
 .confirm-button:hover {
     background-color: #41729f;
 }
+
+.back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #24a544;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
